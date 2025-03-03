@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: "DM Sans", sans-serif;
+  @apply text-gray-500;
+}
+
+@theme {
+  --font-montserat: "Montserrat", "sans-serif";
+  --font-dmsans: "DM Sans", "sans-serif";
+  --color-gray-20: #f8f4eb;
+  --color-primary-100: #ffe1e0;
+  --color-primary-300: #ffa6a3;
+  --color-primary-500: #ff6b66;
+  --color-secondary-400: #ffcd5b;
+  --color-secondary-500: #ffc132;
+  --color-avocado-100: oklch(0.99 0 0);
+  --color-avocado-200: oklch(0.98 0.04 113.22);
+  --color-avocado-300: oklch(0.94 0.11 115.03);
+  --color-mycolor-100: #ccc;
+  --text-evolve: url("./assets/EvolveText.png");
+  --abstract-waves: url("./assets/AbstractWaves.png");
+  --sparkles: url("./assets/Sparkles.png");
+}
